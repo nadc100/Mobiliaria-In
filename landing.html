@@ -12,211 +12,102 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manjari:wght@100;400;700&display=swap" rel="stylesheet">
   <title>Mobiliaria-IN</title>
+
+
+  <style>
+
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    /* Custom default button */
+    .btn-secondary,
+    .btn-secondary:hover,
+    .btn-secondary:focus {
+      color: #333;
+      text-shadow: none;
+      /* Prevent inheritance from `body` */
+    }
+
+    .cover-container {
+      max-width: 42em;
+      
+    }
+
+    .nav-masthead .nav-link {
+      padding: .25rem 0;
+      font-weight: 700;
+      color: rgba(255, 255, 255, .5);
+      background-color: transparent;
+      border-bottom: .25rem solid transparent;
+    }
+
+    .nav-masthead .nav-link:hover,
+    .nav-masthead .nav-link:focus {
+      border-bottom-color: rgba(255, 255, 255, .25);
+    }
+
+    .nav-masthead .nav-link+.nav-link {
+      margin-left: 1rem;
+    }
+
+    .nav-masthead .active {
+      color: #fff;
+      border-bottom-color: #fff;
+    }
+    .fondo{
+      background: #8360c3;
+background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);
+background: linear-gradient(to right, #2ebf91, #8360c3);
+text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+    }
+
+  </style>
+
 </head>
 
-<body>
-  <header class="p-3 mb-3 border-bottom">
-    <div class="container">
-      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-        <a href="/index.html" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
-          <svg class="bi me-2" width="40" height="32">
-            <use xlink:href="#bootstrap"></use>
-          </svg>
-        </a>
-        </svg>
-        </a>
+<body class="d-flex h-100 text-center text-white fondo">
 
-        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="index.html" class="nav-link px-2 link-dark">Mobiliaria-IN</a></li>
-          <li><a href="propiedades.html" class="nav-link px-2 link-dark">Propiedades</a></li>
-          <li><a href="agentes.html" class="nav-link px-2 link-dark">Agentes</a></li>
-          <li><a href="donaciones.html" class="nav-link px-2 link-dark">Donaciones</a></li>
-        </ul>
+  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <header class="mb-auto">
+      <div>
+        <h3 class="float-md-start mb-0">Cover</h3>
+        <nav class="nav nav-masthead justify-content-center float-md-end">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="#">Contact</a>
+        </nav>
+      </div>
+    </header>
 
-        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-          <input type="search" class="form-control" placeholder="Buscar..." aria-label="Search">
-        </form>
+    <main class="px-3">
+      <h1>Cover your page.</h1>
+      <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the
+        text, and add your own fullscreen background photo to make it your own.</p>
+      <p class="lead">
+        <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Learn more</a>
+      </p>
+    </main>
 
-        <div class="dropdown text-end">
-          <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1"
-            data-bs-toggle="dropdown" aria-expanded="false">
-            <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
-          </a>
-          <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
-            <li><a class="dropdown-item" href="#">New project...</a></li>
-            <li><a class="dropdown-item" href="#">Settings</a></li>
-            <li><a class="dropdown-item" href="#">Profile</a></li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-            <li><a class="dropdown-item" href="#">Sign out</a></li>
-          </ul>
-        </div>
-        <div class="text-end">
-          <a href="/login.html"><button type="button"
-              class="btn btn-outline-light btn-success bg-opacity-50">Login</button></a>
-          <a href="/registro.html"><button type="button"
-              class="btn btn-outline-light btn-warning bg-opacity-50">Registro</button></a>
-        </div>
-      </div>
-    </div>
-    </div>
-
-  </header>
-
-
-  <div class="container px-4 py-5" id="icon-grid">
-    <h2 class="pb-2 border-bottom">Icon grid</h2>
-
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
-      <div class="col d-flex align-items-start">
-        <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
-          <use xlink:href="#bootstrap"></use>
-        </svg>
-        <div>
-          <h4 class="fw-bold mb-0">Featured title</h4>
-          <p>Paragraph of text beneath the heading to explain the heading.</p>
-        </div>
-      </div>
-      <div class="col d-flex align-items-start">
-        <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
-          <use xlink:href="#cpu-fill"></use>
-        </svg>
-        <div>
-          <h4 class="fw-bold mb-0">Featured title</h4>
-          <p>Paragraph of text beneath the heading to explain the heading.</p>
-        </div>
-      </div>
-      <div class="col d-flex align-items-start">
-        <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
-          <use xlink:href="#calendar3"></use>
-        </svg>
-        <div>
-          <h4 class="fw-bold mb-0">Featured title</h4>
-          <p>Paragraph of text beneath the heading to explain the heading.</p>
-        </div>
-      </div>
-      <div class="col d-flex align-items-start">
-        <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
-          <use xlink:href="#home"></use>
-        </svg>
-        <div>
-          <h4 class="fw-bold mb-0">Featured title</h4>
-          <p>Paragraph of text beneath the heading to explain the heading.</p>
-        </div>
-      </div>
-      <div class="col d-flex align-items-start">
-        <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
-          <use xlink:href="#speedometer2"></use>
-        </svg>
-        <div>
-          <h4 class="fw-bold mb-0">Featured title</h4>
-          <p>Paragraph of text beneath the heading to explain the heading.</p>
-        </div>
-      </div>
-      <div class="col d-flex align-items-start">
-        <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
-          <use xlink:href="#toggles2"></use>
-        </svg>
-        <div>
-          <h4 class="fw-bold mb-0">Featured title</h4>
-          <p>Paragraph of text beneath the heading to explain the heading.</p>
-        </div>
-      </div>
-      <div class="col d-flex align-items-start">
-        <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
-          <use xlink:href="#geo-fill"></use>
-        </svg>
-        <div>
-          <h4 class="fw-bold mb-0">Featured title</h4>
-          <p>Paragraph of text beneath the heading to explain the heading.</p>
-        </div>
-      </div>
-      <div class="col d-flex align-items-start">
-        <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
-          <use xlink:href="#tools"></use>
-        </svg>
-        <div>
-          <h4 class="fw-bold mb-0">Featured title</h4>
-          <p>Paragraph of text beneath the heading to explain the heading.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <footer class="py-5">
-      <div class="row">
-        <div class="col-2">
-          <h5>Apartamentos</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Bogotá</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Medellín</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Cali</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Barranquilla</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Bucaramanga</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Villavicencio</a></li>
-          </ul>
-        </div>
-
-        <div class="col-2">
-          <h5>Fincas</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Bogotá</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Medellín</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Cali</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Barranquilla</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Bucaramanga</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Villavicencio</a></li>
-          </ul>
-        </div>
-
-        <div class="col-2">
-          <h5>Casas</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Bogotá</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Medellín</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Cali</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Barranquilla</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Bucaramanga</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Villavicencio</a></li>
-          </ul>
-        </div>
-
-        <div class="col-4 offset-1">
-          <form>
-            <h5>Quiere estar informado de las mejores propiedades en venta?</h5>
-            <p>Cada mes enviaremos un newsletter</p>
-            <div class="d-flex w-100 gap-2">
-              <label for="newsletter1" class="visually-hidden">Email address</label>
-              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-              <button class="btn btn-primary" type="button">Subscribirse</button>
-            </div>
-          </form>
-        </div>
-      </div>
-
-      <div class="d-flex justify-content-between py-4 my-4 border-top">
-        <p>Mobiliaria-IN © 2021 Todos los derechos reservados</p>
-        <ul class="list-unstyled d-flex">
-          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
-                <use xlink:href="#twitter"></use>
-              </svg></a></li>
-          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
-                <use xlink:href="#instagram"></use>
-              </svg></a></li>
-          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
-                <use xlink:href="#facebook"></use>
-              </svg></a></li>
-        </ul>
-      </div>
+    <footer class="mt-auto text-white-50">
+      <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a
+          href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
     </footer>
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-    crossorigin="anonymous"></script>
+
+
+
 </body>
 
 </html>

@@ -57,26 +57,26 @@
       <div class="row align-items-center g-lg-5 py-5">
         <div class="col-lg-7 text-center text-lg-start">
           <h1 class="display-4 fw-bold lh-1 mb-3">Entre a la plataforma Mobiliaria-IN</h1>
-          <p class="col-lg-10 fs-4">Para postear sus propiedades y venderlas al mejor precio</p>
+          <h4 class="col-lg-10 fs-4" style="color:steelblue">Para postear sus propiedades y venderlas al mejor precio</h4>
         </div>
         <div class="col-md-10 mx-auto col-lg-5">
           <form class="p-4 p-md-5 border rounded-3 bg-light">
             <div class="form-floating mb-3">
               <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-              <label for="floatingInput">Email address</label>
+              <label for="floatingInput">Email</label>
             </div>
             <div class="form-floating mb-3">
               <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-              <label for="floatingPassword">Password</label>
+              <label for="floatingPassword">Clave</label>
             </div>
             <div class="checkbox mb-3">
               <label>
-                <input type="checkbox" value="remember-me"> Remember me
+                <input type="checkbox" value="remember-me"> Recordarme
               </label>
             </div>
-            <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
+            <button class="w-100 btn btn-lg btn-primary" type="submit" style="background-color:#2ecc71">Entrar</button>
             <hr class="my-4">
-            <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
+            <small class="text-muted">Al entrar acepta los terminos y condiciones.</small>
           </form>
         </div>
       </div>
@@ -122,7 +122,17 @@
           </ul>
         </div>
 
-
+        <div class="col-4 offset-1">
+          <form>
+            <h5>Quiere estar informado de las mejores propiedades en venta?</h5>
+            <p>Cada mes enviaremos un newsletter</p>
+            <div class="d-flex w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Email address</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+              <button class="btn btn-primary" type="button">Subscribirse</button>
+            </div>
+          </form>
+        </div>
       </div>
 
       <div class="d-flex justify-content-between py-4 my-4 border-top">
@@ -140,7 +150,7 @@
         </ul>
       </div>
     </footer>
-    </div>
+  </div>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
     integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
     crossorigin="anonymous"></script>

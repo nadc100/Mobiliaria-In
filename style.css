@@ -2,11 +2,19 @@
 body {
   font-family: 'Urbanist', sans-serif;
 }
-h1,h2,h3,h4,h5{
+h1,h2,h4,h5{
   font-family: 'Urbanist', sans-serif;
   font-weight: 500;
   color:#2ecc71;
 }
+
+h3{
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 500;
+  color: gold;
+}
+
+
 
 .buscar{
   width: 80%;

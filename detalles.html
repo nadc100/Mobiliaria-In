@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>Mobiliaria-IN</title>
+</head>
+
+<body>
+  <header class="p-3 mb-3 border-bottom">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <ul class="nav col-12 col-lg-auto me-lg-auto mt-4 justify-content-center mb-md-0">
+          <img src="imagenes/loguito.png" alt="logousuario" width="30" height="30" class="rounded-circle">
+          <li>
+            <h5><a href="index.html" class="nav-link px-2 link-dark" style="color:#2ecc71">Mobiliaria-IN</a></h5>
+          </li>
+          <li><a href="propiedades.html" class="nav-link px-2 link-dark">Propiedades</a></li>
+          <li><a href="agentes.html" class="nav-link px-2 link-dark">Agentes</a></li>
+          <li><a href="donaciones.html" class="nav-link px-2 link-dark">Donaciones</a></li>
+        </ul>
+
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+          <input type="search" class="form-control" placeholder="Buscar..." aria-label="Search">
+        </form>
+
+        <div class="dropdown text-end">
+          <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1"
+            data-bs-toggle="dropdown" aria-expanded="false">
+          </a>
+          <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+            <li><a class="dropdown-item" href="#">Buscar por ciudad</a></li>
+            <li><a class="dropdown-item" href="#">Buscar por estrato</a></li>
+            <li><a class="dropdown-item" href="#">Buscar por precio</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Salir</a></li>
+          </ul>
+        </div>
+        <div class="text-end">
+          <a href="/login.html"><button type="button" class="btn btn-outline bg-opacity-50"
+              style="background-color:#2ecc71">Login</button></a>
+          <a href="/registro.html"><button type="button" class="btn btn-outline bg-opacity-50"
+              style="background-color:#2ecc71">Registro</button></a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </header>
+  <div class="buscar">
+    <input class="form-control form-control w-33" type="text" placeholder="Search" aria-label="Search">
+    <input class="form-control form-control w-33" type="text" placeholder="Search" aria-label="Search">
+    <input class="form-control form-control w-33" type="text" placeholder="Search" aria-label="Search">
+  </div>
+  <div class="container px-4 py-5" id="custom-cards">
+    <h2 class="pb-2 border-bottom">Propiedades</h2>
+    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+          style="background-image: url('imagenes/apartamentos.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Apartamentos</h2>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+                <img src="imagenes/loguito.png" alt="Bootstrap" width="32" height="32"
+                  class="rounded-circle border border-white">
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em">
+                  <use xlink:href="#geo-fill"></use>
+                </svg>
+                <small>Bogotá</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em">
+                  <use xlink:href="#calendar3"></use>
+                </svg>
+                <small>3d</small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+          style="background-image: url('imagenes/fincas.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Fincas</h2>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+                <img src="imagenes/loguito.png" alt="Bootstrap" width="32" height="32"
+                  class="rounded-circle border border-white">
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em">
+                  <use xlink:href="#geo-fill"></use>
+                </svg>
+                <small>Medellín</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em">
+                  <use xlink:href="#calendar3"></use>
+                </svg>
+                <small>4d</small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+          style="background-image: url('imagenes/casas.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Casas</h2>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+                <img src="imagenes/loguito.png" alt="Bootstrap" width="32" height="32"
+                  class="rounded-circle border border-white">
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em">
+                  <use xlink:href="#geo-fill"></use>
+                </svg>
+                <small>Colombia</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em">
+                  <use xlink:href="#calendar3"></use>
+                </svg>
+                <small>5d</small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="px-lg-5" style="background-color: #2ecc71;">
+      <div class="d-lg-flex justify-content-between align-items-center ps-lg-4"><img
+          class="d-block order-lg-2 me-lg-n5 flex-shrink-0" src="imagenes/casas.jpg" alt="Summer Collection">
+        <div class="position-relative mx-auto me-lg-n5 py-5 px-4 mb-lg-5 order-lg-1"
+          style="max-width: 42rem; z-index: 10;">
+          <div class="pb-lg-5 mb-lg-5 text-center text-lg-start text-lg-nowrap">
+            <h3 class="h2 text-light fw-light pb-1 from-start">Has just arrived!</h3>
+            <h2 class="text-light display-5 from-start delay-1">Huge Summer Collection</h2>
+            <p class="fs-lg text-light pb-3 from-start delay-2">Swimwear, Tops, Shorts, Sunglasses &amp; much more...
+            </p>
+            <div class="d-table scale-up delay-4 mx-auto mx-lg-0"><a class="btn btn-primary"
+                href="shop-grid-ls.html">Shop Now<i class="ci-arrow-right ms-2 me-n1"></i></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <section class="container pb-4 mb-md-3">
+      <div class="row">
+        <div class="col-md-8 mb-4">
+          <div class="d-sm-flex justify-content-between align-items-center bg-secondary overflow-hidden rounded-3">
+            <div class="py-4 my-2 my-md-0 py-md-5 px-4 ms-md-3 text-center text-sm-start">
+              <h4 class="fs-lg fw-light mb-2">Ofertas</h4>
+              <h3 class="mb-4">Converse All Star on Sale</h3><a class="btn btn-primary btn-shadow btn-sm" href="#">Shop
+                Now</a>
+            </div><img class="d-block ms-auto" src="imagenes/logo2.png" alt="equipo">
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="d-flex flex-column h-100 justify-content-center bg-size-cover bg-position-center rounded-3"
+            style="background-image: url(img/blog/banner-bg.jpg);">
+            <div class="py-4 my-2 px-4 text-center">
+              <div class="py-1">
+                <h5 class="mb-2">Your Add Banner Here</h5>
+                <p class="fs-sm text-muted">Hurry up to reserve your spot</p><a
+                  class="btn btn-primary btn-shadow btn-sm" href="#">Contact us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container px-4 py-5" id="icon-grid">
+      <h2 class="pb-2 border-bottom">Cómo comprar</h2>
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+        <div class="col d-flex align-items-start">
+          <div>
+            <h4 class="fw-bold mb-0">Explora las ofertas en buscar</h4>
+            <p>En el listado de inmuebles encontrarás gran variedad de apartamentos, puedes ver las fotografías,
+              detalles de la ubicación y hasta un tour virtual.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div>
+            <h4 class="fw-bold mb-0">Selecciona la propiedad de tus sueños</h4>
+            <p>Luego de elegir el perfecto para ti, puedes mostrar tu interés contándonos por whatsapp o haciendo click
+              en el botón de ¡Quiero visitarlo!.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div>
+            <h4 class="fw-bold mb-0">Agenda una cita con uno de nuestros agentes</h4>
+            <p>Te contactaremos para saber que horario es conveniente para ti y programar la visita.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div>
+            <h4 class="fw-bold mb-0">Contacta al agente</h4>
+            <p>El agente te acompañará a conocer el inmueble, recorrerán cada rincón, el edificio, la zona y todo lo que
+              desees conocer.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div>
+            <h4 class="fw-bold mb-0">Haz tu declaración de compra</h4>
+            <p>Habla con tu agente acerca del plan de pagos y te recomendamos el mejor banco para ti.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div>
+            <h4 class="fw-bold mb-0">Disfruta</h4>
+            <p>Una vez los trámites estén listos puedes empezar a disfrutar de tu hogar, no debes hacer arreglos, ni
+              pagos, todo está 100% funcional y al día.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div>
+            <h4 class="fw-bold mb-0">Dona</h4>
+            <p>Si te gustó el servicio dona a nuestra agencia inmobiliaria la cantidad que quieras</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div>
+            <h4 class="fw-bold mb-0">Vende tu propiedad</h4>
+            <p>Si lo que quieres es vender tu propiedad, registrate y sube las fotos y caracteristicas, un agente te
+              contactará para establecer el precio.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <footer class="footer mt-auto py-3 bg-light">
+        <div class="row">
+          <div class="col-2">
+            <h5>Apartamentos</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Bogotá</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Medellín</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Cali</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Barranquilla</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Bucaramanga</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Villavicencio</a></li>
+            </ul>
+          </div>
+
+          <div class="col-2">
+            <h5>Fincas</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Bogotá</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Medellín</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Cali</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Barranquilla</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Bucaramanga</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Villavicencio</a></li>
+            </ul>
+          </div>
+
+          <div class="col-2">
+            <h5>Casas</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Bogotá</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Medellín</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Cali</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Barranquilla</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Bucaramanga</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Villavicencio</a></li>
+            </ul>
+          </div>
+
+          <div class="col-4 offset-1">
+            <form>
+              <h5>Quiere estar informado de las mejores propiedades en venta?</h5>
+              <p>Cada mes enviaremos un newsletter</p>
+              <div class="d-flex w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                <button class="btn btn-primary" type="button">Subscribirse</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-between py-4 my-4 border-top">
+          <p>Mobiliaria-IN © 2021 Todos los derechos reservados</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                  <use xlink:href="#twitter"></use>
+                </svg></a></li>
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                  <use xlink:href="#instagram"></use>
+                </svg></a></li>
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                  <use xlink:href="#facebook"></use>
+                </svg></a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>

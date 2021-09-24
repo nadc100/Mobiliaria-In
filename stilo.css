@@ -1,0 +1,31 @@
+.icon{
+    min-width: 40px;
+    text-align: center;
+    color: #999;
+}
+.col-lg-7{
+    color: #2ecc71;
+}
+.display-4{
+    margin-top: -200px;
+}
+.col-lg-10{
+    color: black;
+}
+
+.dropdown-toggle{
+    position:relative;
+    left: -70%;
+}
+h1,h2,h4,h5{
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 500;
+    color:#2ecc71;
+  }
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: red;
+    padding-top: 20px;
+}
